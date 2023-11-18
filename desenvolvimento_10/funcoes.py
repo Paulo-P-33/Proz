@@ -8,6 +8,8 @@ def calculadora(num1, num2, operacao):
   elif operacao == "dividir":
     if num1 >= num2: 
       return num1 / num2
+  else: 
+      return 0
     
 num1 = int(input("Digite o primeiro número: "))
 num2 = int(input("Digite o segundo número: "))
